@@ -45,7 +45,8 @@ p {
 /* GENERAL CONTAINER AND GRID */
 .container {
   margin: 0 auto;
-  max-width: 130rem;
+  max-width: 120rem;
+  padding: 0 3.2rem;
 }
 
 .grid {
