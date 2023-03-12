@@ -214,11 +214,16 @@
   color: var(--main-color);
   text-align: center;
   margin-bottom: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .meals-text {
   line-height: 1.6;
   font-size: 1.2rem;
+  height: 8rem;
 }
 
 .meals-btn {
@@ -245,4 +250,22 @@
 .all-recipe a {
   color: var(--main-color);
   text-decoration: underline;
+}
+ion-icon {
+  font-size: 2rem;
+  color: var(--btn-color);
+}
+/* MEALS-END */
+
+/* TESTIMONIAL-SECTION-START */
+.testimonial-section {
+  padding: 9.6rem;
+}
+
+.carousel {
+  background-color: var(--card-bg);
+  width: 80%;
+  height: 40rem;
+  margin: 0 auto;
+  padding: 4rem;
 }
