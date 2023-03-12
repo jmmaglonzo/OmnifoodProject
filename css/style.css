@@ -182,73 +182,67 @@
 
 .meals-container {
   grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
   column-gap: 4.6rem;
+  row-gap: 6.4rem;
+  width: 100rem;
 }
 
 .card {
   background-color: var(--card-bg);
-  border-radius: 8px;
+  border-radius: 10px;
   overflow: hidden;
 }
 
 .card img {
   width: 100%;
-  border-top-left-radius: 8px;
-  border-top-right-radius: 8px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .food-container {
-  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
-  text-align: center;
+  padding: 1.6rem 2.4rem;
 }
 
-.tags {
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 1.5rem;
+.description {
+  margin-bottom: 2rem;
 }
 
-.food-tags {
-  font-size: 1.5rem;
-  color: var(--main-color);
-  font-weight: 600;
+.meal-name {
+  font-size: 1.2rem;
   text-transform: uppercase;
-}
-
-.food-name {
-  font-size: 2rem;
-  color: var(--text);
-  margin-bottom: 1.5rem;
-}
-
-.attributes {
-  display: flex;
-  flex-direction: column;
-  gap: 2rem;
-}
-
-.attributes li {
-  font-size: 2rem;
-  color: var(--text);
-  font-weight: 500;
-}
-
-.diet {
-  padding: 4.6rem;
-}
-
-.tertiary-heading {
-  font-size: 2.4rem;
-  color: var(--text);
-}
-
-.all-recipes {
+  color: var(--main-color);
   text-align: center;
-  margin-top: 4.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.meals-text {
+  line-height: 1.6;
+  font-size: 1.2rem;
+}
+
+.meals-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.meal-btn {
+  font-size: 1.2rem;
+  font-weight: 500;
+  background-color: var(--btn-color);
+  padding: 1rem 8rem;
+  border-radius: 50px;
+}
+
+.all-recipe {
+  text-align: center;
+  margin-top: 6.4rem;
   font-size: 2rem;
 }
 
-.all-recipes a {
+.all-recipe a {
   color: var(--main-color);
   text-decoration: underline;
 }
