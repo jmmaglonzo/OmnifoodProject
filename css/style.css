@@ -278,6 +278,7 @@ ion-icon {
 .carousel img {
   height: 30rem;
   border-radius: 10px;
+  border: 3px solid #1a81de;
 }
 
 .carousel-content {
@@ -348,3 +349,51 @@ ion-icon {
 }
 
 /* TESTIMONIALS END */
+
+/* GALLERY */
+
+.gallery {
+  padding: 9.6rem;
+}
+
+.gallery-heading {
+  font-size: 4.6rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--main-color);
+  text-align: center;
+  margin-bottom: 4.6rem;
+}
+
+.wrapper,
+.window-pic {
+  grid-template-columns: repeat(2, 1fr);
+  display: grid;
+  gap: 1.5rem;
+}
+
+.window-pic {
+  gap: 1rem;
+  border: 3px solid #1a81de;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.window-pic img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.big-picture img {
+  width: 100%;
+  border: 3px solid #e67e22;
+  border-radius: 10px;
+  padding: 1rem;
+}
+/* END */
+
+/* PRICING START */
+
+.pricing {
+  padding: 9.6rem;
+}
