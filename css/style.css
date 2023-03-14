@@ -265,7 +265,86 @@ ion-icon {
 .carousel {
   background-color: var(--card-bg);
   width: 80%;
-  height: 40rem;
+  height: 35rem;
   margin: 0 auto;
   padding: 4rem;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+  position: relative;
+  border-radius: 10px;
 }
+
+.carousel img {
+  height: 30rem;
+  border-radius: 10px;
+}
+
+.carousel-content {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.carousel-btn {
+  background-color: var(--btn-color);
+  height: 4rem;
+  width: 4rem;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  cursor: pointer;
+}
+
+.chevron {
+  height: 2.4rem;
+  width: 2.4remx;
+  stroke: var(--text);
+}
+
+.btn-r {
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+.btn-l {
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.review {
+  margin-bottom: 3.2rem;
+}
+
+.customer {
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.dots {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  transform: translate(50%, 32px);
+  cursor: pointer;
+}
+
+.active {
+  background-color: #1a81de;
+}
+
+.dot {
+  height: 1.2rem;
+  width: 1.2rem;
+  border-radius: 50%;
+  border: 1px solid #e67e22;
+}
+
+/* TESTIMONIALS END */
