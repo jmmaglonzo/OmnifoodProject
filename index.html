@@ -1,394 +1,406 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>OmnifoodProject</title>
-    <link rel="stylesheet" href="css/animation.css" />
-    <link rel="stylesheet" href="css/general.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="icon" href="img/favicon.png" />
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omnifood | Project</title>
+  <link rel="icon" type="image/x-icon" href="img/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://unpkg.com/@phosphor-icons/web"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+  <header class="navigation">
+    <img src="img/omnifood-logo.png" alt="" class="logo">
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#how">How it works</a></li>
+        <li><a href="#meals">Meals</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+      </ul>
+        
+    </nav>
+    <a href="#gallery" class="btn btn-g">gallery</a>
+  </header>
 
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </head>
-  <body>
-    <header>
-      <nav class="main-nav">
-        <div class="logo">
-          <a href="#"><img src="img/omnifood-logo.png" alt="" /></a>
+  <main>
+    <section class="hero container grid">
+      <div class="content">
+        <h1>A healthy meal delivered to your door, every single day!</h1>
+        <p>The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your personal tastes and nutritional needs. </p>
+
+        <a href="#cta" class="btn">Start eating well</a>
+        <a href="#how" class="btn btn1">Learn more&darr;</a>
+      </div>
+        <img src="img/hero.png" alt="" class="hero-img">
+    </section>
+  </main>
+
+  <section class="featured container">
+    <h3 class="subheading">Featured in</h3>
+
+    <div class="logos">
+      <img src="img/logos/business-insider.png" alt="">
+      <img src="img/logos/forbes.png" alt="">
+      <img src="img/logos/techcrunch.png" alt="">
+      <img src="img/logos/usa-today.png" alt="">
+      <img src="img/logos//the-new-york-times.png" alt="">
+    </div>
+  </section>
+
+  <section class="how-it-works container" id="how">
+    <h3 class="subheading">how it works</h3>
+    <h2>Your daily dose of health in 3 simple steps </h2>
+
+    <div class="steps grid">
+      <!-- Step-01 -->
+      <div class="wrapper">
+        <span class="number">01</span>
+        <h3 class="tertiary">Tell us what you like (and what not)</h3>
+        <p>Never again waste time thinking about what to eat! Omnifood AI will create a 100% personalized weekly meal plan just for you. It makes sure you get all the nutrients and vitamins you need, no matter what diet you follow! </p>
+      </div>
+      <div class="mobile">
+        <img src="img/app/app-screen-1.png" alt="">
+      </div>
+
+      <!-- Step-02 -->
+      <div class="mobile">
+        <img src="img/app/app-screen-2.png" alt="">
+      </div>
+      <div class="wrapper">
+        <span class="number">02</span>
+        <h3 class="tertiary">Approve your weekly meal plan</h3>
+        <p>Once per week, approve the meal plan generated for you by Omnifood AI. You can change ingredients, swap entire meals, or even add your own recipes.</p>
+      </div>
+    
+
+
+      <!-- Step-03 -->
+
+      <div class="wrapper">
+        <span class="number">03</span>
+        <h3 class="tertiary">Receive meals at convenient time</h3>
+        <p>Best chefs in town will cook your selected meal every day, and we will deliver it to your door whenever works best for you. You can change delivery schedule and address daily! </p>
+      </div>
+      <div class="mobile">
+        <img src="img/app/app-screen-1.png" alt="">
+      </div>
+    </div>
+  </section>
+
+
+  <section class="meals container" id="meals">
+    <h3 class="subheading">meals</h3>
+    <h2>Omnifood AI chooses from 5,000+ recipes</h2>
+
+    <div class="cards-grid">
+      <div class="card">
+        <img src="img/meals/meal-1.jpg" alt="">
+        <div class="food-wrapper">
+          <h3>
+            <i class="ph ph-fork-knife"></i>
+            Japanese Gyoza
+          </h3>
+          <p>Made from a thinly rolled dough filled with ground meat and vegetables, which can then be boiled, steamed or fried, and served hot with a dash of black vinegar and sesame oil or in a soup </p>
         </div>
-
-        <div class="nav-links">
-          <li><a href="#">How it works</a></li>
-          <li><a href="#">Meals</a></li>
-          <li><a href="#">Testimonials</a></li>
-          <li><a href="#">Pricing</a></li>
+        <div class="meal-btn">
+          <a href="#pricing">Order now</a>
         </div>
+      </div>
 
-        <button class="btn btn-nav">Try for free</button>
-      </nav>
-    </header>
-    <!-- HERO -->
-    <main>
-      <section class="hero-section">
-        <div class="hero grid container">
-          <div class="hero-content">
-            <h1 class="heading">
-              A healthy meal delivered to your door, every single day!
-            </h1>
-            <p>
-              The smart 365-days-per-year food subscription that will make you
-              eat healthy again. Tailored to your personal tastes and
-              nutritional needs.
+      <div class="card">
+        <img src="img/meals/meal-2.jpg" alt="">
+        <div class="food-wrapper">
+          <h3><i class="ph ph-fork-knife"></i>
+            Avocado Salad</h3>
+          <p>
+            Made with an abundance of rich and creamy avocados, vibrant tomatoes, crisp cucumbers, bright red onions and a fresh herb dressing.
             </p>
-
-            <button class="btn btn-1">Start eating well</button>
-            <button class="btn btn-2">Learn More &darr;</button>
-          </div>
-
-          <div class="hero-img">
-            <img src="img/hero.png" alt="" />
-          </div>
         </div>
-      </section>
-    </main>
-    <!-- HERO-END -->
-
-    <!-- FEATURED-SECTION -->
-    <section class="featured-section">
-      <div class="container">
-        <h2 class="featured-heading">Featured in</h2>
-        <div class="company-logo">
-          <img src="img/logos/business-insider.png" alt="" />
-          <img src="img/logos/forbes.png" alt="" />
-          <img src="img/logos/techcrunch.png" alt="" />
-          <img src="img/logos/the-new-york-times.png" alt="" />
-          <img src="img/logos/usa-today.png" alt="" />
-        </div>
-      </div>
-    </section>
-    <!-- F-END -->
-
-    <!-- HOW-SECTION -->
-    <section class="how-section">
-      <div class="container">
-        <span class="subheading">How it works</span>
-        <h2 class="second-heading">
-          Your daily dose of health in 3 simple steps
-        </h2>
-
-        <div class="steps-container grid">
-          <!-- Step-01 -->
-          <div class="content">
-            <span class="number">01</span>
-            <h3 class="tertiary">Tell us what you like and what not</h3>
-            <p>
-              Never again waste time thinking about what to eat! Omnifood AI
-              will create a 100% personalized weekly meal plan just for you. It
-              makes sure you get all the nutrients and vitamins you need, no
-              matter what diet you follow!
-            </p>
-          </div>
-          <div class="img-box">
-            <img src="img/app/app-screen-1.png" alt="" />
-          </div>
-
-          <!-- Step-02 -->
-          <div class="img-box">
-            <img src="img/app/app-screen-2.png" alt="" />
-          </div>
-          <div class="content">
-            <span class="number">02</span>
-            <h3 class="tertiary">Approve your weekly meal plan</h3>
-            <p>
-              Once per week, approve the meal plan generated for you by Omnifood
-              AI. You can change ingredients, swap entire meals, or even add
-              your own recipes.
-            </p>
-          </div>
-
-          <!-- Step-03-->
-          <div class="content">
-            <span class="number">03</span>
-            <h3 class="tertiary">Recieve meals at convenient time</h3>
-            <p>
-              Best chefs in town will cook your selected meal every day, and we
-              will deliver it to your door whenever works best for you. You can
-              change delivery schedule and address daily!
-            </p>
-          </div>
-          <div class="img-box">
-            <img src="img/app/app-screen-3.png" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- HOW-END -->
-
-    <!-- MEALS -->
-    <section class="meals-section">
-      <div class="container">
-        <h3 class="meals-title">Meals</h3>
-        <h2 class="meals-heading">Omnifood AI chooses from 5,000+ recipes</h2>
-        <div class="meals-container grid">
-          <div class="card">
-            <img src="img/meals/meal-1.jpg" alt="" />
-
-            <div class="food-container">
-              <h3 class="meal-name">
-                <ion-icon name="restaurant-outline"></ion-icon>Japanese Gyoza
-              </h3>
-
-              <div class="description">
-                <p class="meals-text">
-                  Made from a thinly rolled dough filled with ground meat and
-                  vegetables, which can then be boiled, steamed or fried, and
-                  served hot with a dash of black vinegar and sesame oil or in a
-                  soup
-                </p>
-              </div>
-
-              <div class="meals-btn">
-                <a href="#" class="meal-btn">Order now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src="img/meals/meal-2.jpg" alt="" />
-
-            <div class="food-container">
-              <h3 class="meal-name">
-                <ion-icon name="restaurant-outline"></ion-icon>Avocado Salad
-              </h3>
-
-              <div class="description">
-                <p class="meals-text">
-                  Made with an abundance of rich and creamy avocados, vibrant
-                  tomatoes, crisp cucumbers, bright red onions and a fresh herb
-                  dressing.
-                </p>
-              </div>
-
-              <div class="meals-btn">
-                <a href="#" class="meal-btn">Order now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src="img/meals/6_Israel_istock_edit.jpg" alt="" />
-
-            <div class="food-container">
-              <h3 class="meal-name">
-                <ion-icon name="restaurant-outline"></ion-icon>Tabbouleh Salad
-              </h3>
-
-              <div class="description">
-                <p class="meals-text">
-                  A simple Mediterranean salad of very finely chopped
-                  vegetables, lots of fresh parsley and bulgur wheat, all tossed
-                  with lime juice and olive oil.
-                </p>
-              </div>
-
-              <div class="meals-btn">
-                <a href="#" class="meal-btn">Order now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src="img/meals/15_Veitnam_istock_Edit.jpg" alt="" />
-
-            <div class="food-container">
-              <h3 class="meal-name">
-                <ion-icon name="restaurant-outline"></ion-icon>Spring Rolls
-              </h3>
-
-              <div class="description">
-                <p class="meals-text">
-                  Filled with minced vegetables, seafood, poultry, or meat,
-                  folded into a food wrapper made from dough or rice paper that
-                  is rolled after being folded and is then baked, deep fried, or
-                  steamed.
-                </p>
-              </div>
-
-              <div class="meals-btn">
-                <a href="#" class="meal-btn">Order now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src="img/meals/14_Turkey_istock_edit.jpg" alt="" />
-
-            <div class="food-container">
-              <h3 class="meal-name">
-                <ion-icon name="restaurant-outline"></ion-icon>Kebabs
-              </h3>
-
-              <div class="description">
-                <p class="meals-text">
-                  Dish of Middle Eastern or Central Asian origin that typically
-                  combines small pieces of meat such as lamb or beef with
-                  vegetables on a skewer and is then grilled.
-                </p>
-              </div>
-
-              <div class="meals-btn">
-                <a href="#" class="meal-btn">Order now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="card">
-            <img src="img/meals/7_Japan_istock_edit.jpg" alt="" />
-
-            <div class="food-container">
-              <h3 class="meal-name">
-                <ion-icon name="restaurant-outline"></ion-icon>Japanese Soba
-                Noodles
-              </h3>
-
-              <div class="description">
-                <p class="meals-text">
-                  Noodles made of buckwheat flour, roughly as thick as
-                  spaghetti, and prepared in various hot and cold dishes.
-                </p>
-              </div>
-
-              <div class="meals-btn">
-                <a href="#" class="meal-btn">Order now</a>
-              </div>
-            </div>
-          </div>
+        <div class="meal-btn">
+          <a href="#pricing">Order now</a>
         </div>
       </div>
 
-      <div class="container all-recipe">
-        <a href="#">See all recipes &rightarrow;</a>
-      </div>
-    </section>
-
-    <!-- MEALS-END -->
-
-    <section class="testimonial-section">
-      <div class="container">
-        <span class="subheading">Testimonials</span>
-        <h2 class="second-heading">Once you try it, you can't go back</h2>
-
-        <div class="carousel">
-          <img src="img/testimonials/pexels-italo-melo-2379005.jpg" />
-
-          <blockquote class="carousel-content">
-            <p class="review">
-              Omnifood has been a life-saver! Whenever I'm in a pinch and don't
-              know what to make for dinner, I just enter my dietary preferences
-              and it creates a meal plan tailored specifically to me. It takes
-              the hassle out of meal planning and has saved me time, money, and
-              energy. Highly recommend this AI-powered service!
-            </p>
-            <p class="customer">-Mark</p>
-          </blockquote>
-
-          <button class="carousel-btn btn-l">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="chevron"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M15.75 19.5L8.25 12l7.5-7.5"
-              />
-            </svg>
-          </button>
-          <button class="carousel-btn btn-r">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke-width="1.5"
-              stroke="currentColor"
-              class="chevron"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M8.25 4.5l7.5 7.5-7.5 7.5"
-              />
-            </svg>
-          </button>
-
-          <div class="dots">
-            <button class="dot active">&nbsp;</button>
-            <button class="dot">&nbsp;</button>
-            <button class="dot">&nbsp;</button>
-            <button class="dot">&nbsp;</button>
-          </div>
+      <div class="card">
+        <img src="img/meals/meal-3.jpg" alt="">
+        <div class="food-wrapper">
+          <h3><i class="ph ph-fork-knife"></i>
+            Tabbouleh Salad</h3>
+          <p>A simple Mediterranean salad of very finely chopped vegetables, lots of fresh parsley and bulgur wheat, all tossed with lime juice and olive oil.</p>
+        </div>
+        <div class="meal-btn">
+          <a href="#pricing">Order now</a>
         </div>
       </div>
-    </section>
 
-    <section class="gallery">
-      <div class="container">
-        <h2 class="gallery-heading">Gallery</h2>
-        <div class="wrapper">
-          <div class="window-pic">
-            <img src="img/gallery/gallery-1.jpg" alt="">
-            <img src="img/gallery/gallery-2.jpg" alt="">
-            <img src="img/gallery/gallery-3.jpg" alt="">
-            <img src="img/gallery/gallery-4.jpg" alt="">
-          </div>
-
-          <div class="big-picture">
-            <img src="img/gallery/side-3.jpg" alt="">
-          </div>
-
-          <div class="big-picture">
-            <img src="img/gallery/side-4.jpg" alt="">
-          </div>
-
-          <div class="window-pic">
-            <img src="img/gallery/gallery-6.jpg" alt="">
-            <img src="img/gallery/gallery-7.jpg" alt="">
-            <img src="img/gallery/gallery-8.jpg" alt="">
-            <img src="img/gallery/gallery-9.jpg" alt="">
-          </div>
+      <div class="card">
+        <img src="img/meals/meal-4.jpg" alt="">
+        <div class="food-wrapper">
+          <h3><i class="ph ph-fork-knife"></i>
+            Spring Rolls</h3>
+          <p>Filled with minced vegetables, seafood, poultry, or meat, folded into a food wrapper made from dough or rice paper that is rolled after being folded and is then baked, deep fried, or steamed.</p>
         </div>
+        <div class="meal-btn">
+          <a href="#pricing">Order now</a>
         </div>
       </div>
-    </section>
 
-    <section class="pricing">
-      <div class="container">
-        <span class="subheading">Pricing</span>
-        <h2 class="second-heading"> Eating well without breaking the bank </h2>
+      <div class="card">
+        <img src="img/meals/meal-5.jpg" alt="">
+        <div class="food-wrapper">
+          <h3><i class="ph ph-fork-knife"></i>
+            Kebabs</h3>
+          <p>Dish of Middle Eastern or Central Asian origin that typically combines small pieces of meat such as lamb or beef with vegetables on a skewer and is then grilled.</p>
+        </div>
+        <div class="meal-btn">
+          <a href="#pricing">Order now</a>
+        </div>
       </div>
-     
-    </section>
 
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
-  </body>
+      <div class="card">
+        <img src="img/meals/meal-6.jpg" alt="">
+        <div class="food-wrapper">
+          <h3><i class="ph ph-fork-knife"></i>
+            Japanese Soba Noodles</h3>
+          <p>Noodles made of buckwheat flour, roughly as thick as spaghetti, and prepared in various hot and cold dishes.</p>
+        </div>
+        <div class="meal-btn">
+          <a href="#pricing">Order now</a>
+        </div>
+      </div>
+  
+    </div>
+
+    <div class="all-recipes">
+      <a href="#">See all recipes&rightarrow;</a>
+    </div>
+  </section>
+
+
+  <section class="testimonials container" id="testimonials">
+    <h3 class="subheading">testimonials</h3>
+    <h2>Once you try it, you can't go back</h2>
+
+    <div class="carousel">
+      <img src="img/testimonials/pexels-italo-melo-2379005.jpg" alt="">
+      <blockquote>
+        <p>"Omnifood has been a life-saver! Whenever I'm in a pinch and don't know what to make for dinner, I just enter my dietary preferences and it creates a meal plan tailored specifically to me. It takes the hassle out of meal planning and has saved me time, money, and energy. Highly recommend this AI-powered service!"</p>
+        <span>-mark</span>
+
+      </blockquote>
+    </div>
+  </section>
+
+
+  <section class="gallery container" id="gallery">
+    <p>gallery</p>
+    <div class="grid-wrapper grid">
+      <div class="window-pic">
+        <img src="img/gallery/gallery-1.jpg" alt="">
+        <img src="img/gallery/gallery-2.jpg" alt="">
+        <img src="img/gallery/gallery-3.jpg" alt="">
+        <img src="img/gallery/gallery-4.jpg" alt="">
+      </div>
+
+      <div class="big-img">
+        <img src="img/gallery/side-3.jpg" alt="">
+      </div>
+      <div class="big-img">
+        <img src="img/gallery/side-4.jpg" alt="">
+
+      </div>
+
+      <div class="window-pic">
+        <img src="img/gallery/gallery-7.jpg" alt="">
+        <img src="img/gallery/gallery-8.jpg" alt="">
+        <img src="img/gallery/gallery-9.jpg" alt="">
+        <img src="img/gallery/gallery-5.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="pricing container" id="pricing">
+    <span class="s-heading">pricing</span>
+    <p> Eating well without breaking the bank.</p>
+
+    <div class="pricing-wrapper">
+      <div class="price-card">
+        <header class="price-heading">
+          <h3>starter</h3>
+          <p class="price">$395</p>
+          <p class="p-desc">per month. That's just $13 per meal!</p>
+        </header>
+          <ul class="pricing-items">
+            <li>
+              <i class="ph ph-check"></i>1 meal per day</li>
+            <li><i class="ph ph-check"></i>Order from 11am to 9pm</li>
+            <li><i class="ph ph-check"></i>Delivery is free</li>
+            <li><i class="ph ph-x"></i></li>
+          </ul>
+          <div class="price-btn">
+            <a href="#cta">Start eating well</a>
+          </div>
+      </div>
+
+      <div class="price-card">
+        <header class="price-heading">
+          <h3>complete</h3>
+          <p class="price">$649</p>
+          <p class="p-desc">per month. That's just $11 per meal!</p>
+        </header>
+          <ul class="pricing-items">
+            <li><i class="ph ph-check"></i>2 meals per day</li>
+            <li><i class="ph ph-check"></i>24/7</li>
+            <li><i class="ph ph-check"></i>Delivery is free</li>
+            <li>
+              <i class="ph ph-check"></i>Get latest access to latest recipes</li>
+          </ul>
+          <div class="price-btn">
+            <a href="#cta">Start eating well</a>
+          </div>
+      </div>
+    </div>
+      <div class="grid f-grid">
+        <div class="feature">
+          <i class="ph-bold ph-infinity"></i>
+          <p class="feature-title">Never cook again!</p>
+          <p> Our subscriptions cover 365 days per year, even including major holidays.</p>
+        </div>
+        <div class="feature">
+          <i class="ph-bold ph-leaf"></i>
+          <p class="feature-title">Local and organic</p>
+          <p>Our cooks only use local, fresh, and organic products to prepare your meals. </p>
+        </div>
+        <div class="feature">
+          <i class="ph-bold ph-recycle"></i>
+          <p class="feature-title">No waste</p>
+          <p> All our partners only use reusable containers to package all your meals. </p>
+        </div>
+        <div class="feature">
+          <i class="ph-bold ph-pause"></i>
+          <p class="feature-title">Pause anytime</p>
+          <p> Going on vacation? Just pause your subscription, and we refund unused days.  </p>
+        </div>
+      </div>
+  </section>
+
+
+  <section class="cta-section container" id="cta">
+    <div class="cta-wrapper">
+      <div class="cta-text">
+        <div class="cta-header">
+        <h2>Get your first meal for free!</h2>
+        <p> Healthy, tasty and hassle-free meals are waiting for you. Start eating well today. You can cancel or pause anytime. And the first meal is on us!</p>
+      </div>
+        <form class="cta-form" action="#">
+          <div>
+          <label for="name">Full Name</label>
+          <input id="name" type="text" placeholder="Your Name" required>
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="JohnDoe@example.com" required>
+        </div>
+
+          <div>
+          <label for="option">Where did you hear from us?</label>
+          <select id="option" required>
+            <option value="">Please choose one option</option>
+            <option value="friends">Friends</option>
+            <option value="Udemy">Udemy</option>
+            <option value="Soc-med">Social Media</option>
+            <option value="others">Others</option>
+          </select>
+        </div>
+
+          <button class="sign-up">Sign up now!</button>
+        </form>
+        
+      </div>
+      <div class="img-box" role="img" aria-label="Food">
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer container">
+
+    <div class="logo-col">
+      <a href="#">
+      <img src="img/omnifood-logo.png">
+      </a>
+      <ul class="socials">
+        <li><i class="ph-bold ph-facebook-logo"></i></li>
+        <li><i class="ph-bold ph-instagram-logo"></i></li>
+        <li><i class="ph-bold ph-twitter-logo"></i></li>
+      </ul>
+      <p class="copyright">
+        Copyright © <span class="year">2023</span> by Omnifood, Inc.
+        All rights reserved.
+      </p>
+    </div>
+
+    <div class="contact-us">
+      <p class="footer-heading">
+        Contact us
+      </p>
+      <address>
+        <p class="address">623 Harrison St., 2nd Floor, San Francisco, CA 94107</p>
+        <p>
+          <a href="#">415-201-6370</a>
+          <a href="#">hello@omnifood.com</a>
+        </p>
+      </address>
+    </div>
+
+    <nav class="nav-col">
+      <p class="footer-heading">Account</p>
+      <ul class="footer-nav">
+        <li><a href="#">Create account</a></li>
+        <li><a href="#">Sign in</a></li>
+        <li><a href="#">iOS app</a></li>
+        <li><a href="#">Android app</a></li>
+      </ul>
+    </nav>
+
+    <nav class="nav-col">
+      <p class="footer-heading">Company</p>
+      <ul class="footer-nav">
+        <li><a href="#">About Omnifood</a></li>
+        <li><a href="#">For Business</a></li>
+        <li><a href="#">Cooking partners</a></li>
+        <li><a href="#">Careers</a></li>
+      </ul>
+    </nav>
+
+    <nav class="nav-col">
+      <p class="footer-heading">Resources</p>
+      <ul class="footer-nav">
+        <li><a href="#">Recipe Directory</a></li>
+        <li><a href="#">Help Center</a></li>
+        <li><a href="#">Privacy & terms</a></li>
+      </ul>
+    </nav>
+  </footer>
+  
+
+  <div class="dev">
+    <p class="credits">
+      <i class="ph-bold ph-code"></i>
+      Designed & Coded by
+         <a class=".lonzo" href="#">Lonzo</a>
+    </p>
+      
+    <small>
+      <p>Concept from<a href="https://omnifood.dev/">Omnifood</a>
+        Project
+      </p>
+    </small>
+  </div>
+</body>
 </html>
