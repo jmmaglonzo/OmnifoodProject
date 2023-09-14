@@ -1,0 +1,30 @@
+@media (max-width: 991px) {
+  .sidebar {
+    background-color: rgba(30, 29, 43, 0.15);
+    backdrop-filter: blur(10px);
+  }
+}
+
+@media (max-width: 760px) {
+  .img-container {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 50%;
+    }
+  }
+
+  .company-logos {
+    img {
+      width: 80%;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .steps-container {
+    img {
+      width: 30%;
+    }
+  }
+}
