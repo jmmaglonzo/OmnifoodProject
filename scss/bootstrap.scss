@@ -6,10 +6,13 @@ $dark: #2b3041;
 $light: #f3f6f9;
 $bg-dark: #1e1d2b;
 $sidebar-dark: rgb(30, 29, 43);
+$bg-card: #181722;
 // NAVBAR
-$navbar-padding-y: 1rem;
 $navbar-dark-color: #fff;
-$navbar-dark-hover-color: $secondary;
+$navbar-dark-hover-color: $primary;
+
+$enable-negative-margins: true;
+$enable-cssgrid: true;
 
 // Buttons
 
