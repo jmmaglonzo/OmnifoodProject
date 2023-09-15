@@ -3,6 +3,10 @@
     background-color: rgba(30, 29, 43, 0.15);
     backdrop-filter: blur(10px);
   }
+
+  .custom-row {
+    width: 100%;
+  }
 }
 
 @media (max-width: 760px) {

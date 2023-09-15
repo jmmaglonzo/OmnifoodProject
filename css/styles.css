@@ -14635,7 +14635,6 @@ textarea.form-control-lg {
 body {
   font-family: "Rubik", sans-serif;
   background-color: #1e1d2b;
-  margin-bottom: 3000px;
 }
 
 .logo {
@@ -14755,10 +14754,25 @@ body {
   margin-top: 1rem;
 }
 
+.footer .img-box img {
+  filter: invert(1);
+  width: 50%;
+}
+.footer a {
+  color: #f3f6f9;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+
 @media (max-width: 991px) {
   .sidebar {
     background-color: rgba(30, 29, 43, 0.15);
     backdrop-filter: blur(10px);
+  }
+  .custom-row {
+    width: 100%;
   }
 }
 @media (max-width: 760px) {

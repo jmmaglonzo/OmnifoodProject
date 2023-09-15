@@ -3,7 +3,6 @@
 body {
   font-family: "Rubik", sans-serif;
   background-color: $bg-dark;
-  margin-bottom: 3000px;
 }
 .logo {
   filter: invert(1);
@@ -140,6 +139,22 @@ body {
     border-top: 5px solid white;
     h4 {
       margin-top: 1rem;
+    }
+  }
+}
+
+.footer {
+  .img-box {
+    img {
+      filter: invert(1);
+      width: 50%;
+    }
+  }
+  a {
+    color: $light;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
     }
   }
 }
