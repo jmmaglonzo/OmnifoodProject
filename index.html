@@ -49,12 +49,13 @@
           >
             <div class="offcanvas-header">
               <div class="offcanvas-title m-auto" id="offcanvasDarkNavbarLabel">
-                <img
-                  src="img/omnifood-logo.png"
-                  alt="omnifood-logo"
-                  width="150"
-                  class="img-fluid logo mt-2 border"
-                />
+                <a href="#" class="navbar-brand ms-5">
+                  <img
+                    src="img/omnifood-logo.png"
+                    alt="omnifood-logo"
+                    width="150"
+                    class="img-fluid logo mt-2 border"
+                /></a>
               </div>
               <button
                 type="button"
@@ -65,9 +66,11 @@
             </div>
 
             <!-- Sidebar body -->
-            <div class="offcanvas-body d-flex flex-column flex-lg-row">
+            <div
+              class="offcanvas-body d-flex flex-column flex-lg-row mt-7 mt-lg-0"
+            >
               <ul
-                class="navbar-nav justify-content-center flex-grow-1 pe-lg-5 gap-4 text-center fw-semibold"
+                class="navbar-nav justify-content-lg-center flex-lg-grow-1 gap-4 text-center fw-semibold"
               >
                 <li class="nav-item">
                   <a class="nav-link" aria-current="page" href="#how"
@@ -97,11 +100,11 @@
                 </li>
               </ul>
               <div
-                class="gallery-container d-flex align-items-center justify-content-center"
+                class="gallery-container d-flex align-items-center text-center justify-content-center mt-6 mt-lg-0 ms-0"
               >
                 <a
                   href="#gallery"
-                  class="text-white text-decoration-none px-3 py-1 bg-primary rounded-2"
+                  class="text-white text-decoration-none px-lg-4 px-6 py-1 bg-primary rounded-2"
                   >Gallery</a
                 >
               </div>
@@ -275,7 +278,7 @@
               <h3 class="fw-bold text-light">
                 Tell us what you like (and what not)
               </h3>
-              <p class="lead">
+              <p>
                 Never again waste time thinking about what to eat! Omnifood AI
                 will create a 100% personalized weekly meal plan just for you.
                 It makes sure you get all the nutrients and vitamins you need,
@@ -299,7 +302,7 @@
             <div class="col-sm-6 order-2 order-sm-2">
               <p class="text-secondary display-1 fw-bold">02</p>
               <h3 class="fw-bold text-light">Approve your weekly meal plan</h3>
-              <p class="lead">
+              <p>
                 Once per week, approve the meal plan generated for you by
                 Omnifood AI. You can change ingredients, swap entire meals, or
                 even add your own recipes.
@@ -324,7 +327,7 @@
               <h3 class="fw-bold text-light">
                 Receive meals at convenient time
               </h3>
-              <p class="lead">
+              <p>
                 Best chefs in town will cook your selected meal every day, and
                 we will deliver it to your door whenever works best for you. You
                 can change delivery schedule and address daily!
@@ -663,6 +666,7 @@
     </section>
     <!-- end -->
 
+    <!-- Gallery -->
     <section class="gallery pt-7" id="gallery">
       <div class="container-xl">
         <h3 class="text-secondary text-center text-uppercase fw-semibold">
@@ -692,7 +696,9 @@
         </div>
       </div>
     </section>
+    <!-- End -->
 
+    <!-- Pricing -->
     <section class="pricing pt-7 text-center text-light" id="pricing">
       <div class="container-xl">
         <div class="section-title mb-5">
@@ -867,7 +873,9 @@
         </div>
       </div>
     </section>
+    <!-- End -->
 
+    <!-- 4 col -->
     <section class="4-cols pt-7 text-light">
       <div class="container-fluid bg-card p-5">
         <div class="container-xl">
@@ -916,6 +924,91 @@
         </div>
       </div>
     </section>
+    <!-- End -->
+
+    <!-- CTA -->
+    <section class="cta pt-7">
+      <div class="container-xl">
+        <div
+          class="row bg-primary rounded-2 overflow-hidden justify-content-center align-content-center"
+        >
+          <div class="col-md-4 text-light p-4">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Name</label
+              >
+              <input
+                type="text"
+                class="form-control form-control-sm"
+                id="exampleFormControlInput1"
+                placeholder="Enter your Name"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Email</label
+              >
+              <input
+                type="email"
+                class="form-control form-control-sm"
+                id="exampleFormControlInput1"
+                placeholder="Enter your Email address"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Contact Number</label
+              >
+              <input
+                type="number"
+                class="form-control form-control-sm"
+                id="exampleFormControlInput1"
+                placeholder="Enter your Name"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Message</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+          </div>
+          <div class="col-md-4 img-box order-3 d-none d-md-block"></div>
+          <div class="col-md-4 text-light p-4 order-2">
+            <div
+              class="text-container d-flex flex-column justify-content-center"
+            >
+              <p class="fw-semibold fs-4">Get your first meal for free</p>
+              <p>
+                Healthy, tasty and hassle-free meals are waiting for you. Start
+                eating well today. You can cancel or pause anytime. And the
+                first meal is on us!
+              </p>
+            </div>
+            <div class="contact-container">
+              <h4><i class="fa-solid fa-phone me-1"></i> Contact us</h4>
+              <p>
+                <i class="fa-solid fa-location-dot"></i> 623 Harrison St., 2nd
+                Floor, San Francisco, CA 94107
+              </p>
+              <p><i class="fa-solid fa-hashtag"></i>415-201-6370</p>
+            </div>
+            <div class="btn-container d-flex justify-content-center">
+              <a
+                href="#"
+                class="btn btn-secondary text-light fw-semibold w-100 mt-auto"
+                >Sign Up Now!</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End -->
     <script src="js/app.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
   </body>

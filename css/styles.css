@@ -14742,6 +14742,19 @@ body {
   margin-top: 1rem;
 }
 
+.cta .img-box {
+  background-image: linear-gradient(to right bottom, rgba(72, 153, 229, 0.1), rgba(26, 131, 222, 0.1)), url("../img/food.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cta .contact-container {
+  border-top: 5px solid white;
+}
+.cta .contact-container h4, .cta .contact-container .h4 {
+  margin-top: 1rem;
+}
+
 @media (max-width: 991px) {
   .sidebar {
     background-color: rgba(30, 29, 43, 0.15);
