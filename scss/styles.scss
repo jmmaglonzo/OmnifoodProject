@@ -147,7 +147,6 @@ body {
   .img-box {
     img {
       filter: invert(1);
-      width: 50%;
     }
   }
   a {
@@ -157,6 +156,14 @@ body {
       text-decoration: underline;
     }
   }
+}
+
+.dev {
+  background-color: $bg-card;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 @import "mediaqueries";

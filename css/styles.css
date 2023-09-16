@@ -14756,7 +14756,6 @@ body {
 
 .footer .img-box img {
   filter: invert(1);
-  width: 50%;
 }
 .footer a {
   color: #f3f6f9;
@@ -14764,6 +14763,14 @@ body {
 }
 .footer a:hover {
   text-decoration: underline;
+}
+
+.dev {
+  background-color: #181722;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 @media (max-width: 991px) {
